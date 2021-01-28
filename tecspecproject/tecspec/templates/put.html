@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+ {% load static %}
+{% block content %}
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-12 bottom-padding">
+			<div class="input-padding">
+				<input type="text" placeholder="SCAN CODE OR ENTER DESCRIPTION" id="company_autocomplete_input" class="scan-code text-style input-data" required>
+			</div>
+			<div class="input-padding">
+				<input type="number" placeholder="ENTER HEIGHT" id="height" class="input-width text-style input-data" required>
+			</div>
+			<div class="input-padding">
+				<input type="number" placeholder="ENTER LENGTH" id="length" class="input-width text-style input-data" required>
+			</div>
+			<div class="input-padding">
+				<input type="number" placeholder="ENTER QUANTITY" id="quantity"class="input-width text-style input-data" required>
+			</div>    	
+    </div>
+    <div class="col-sm-12">
+      <div class="row">
+        <div class="col-sm-4">    
+        	<div class="details-div">     	
+						<div class="input-padding">
+							<input type="text" placeholder="commonname" class="input-width text-style details-box" required>
+						</div>
+						<div class="input-padding">
+							<input type="text" placeholder="category" class="input-width text-style details-box" required>
+						</div>
+						<div class="input-padding">
+							<input type="text" placeholder="partnumber" class="input-width text-style details-box" required>
+						</div>
+						<div class="input-padding">
+							<input type="text" placeholder="supplier" class="input-width text-style details-box" required>
+						</div>
+						<div class="input-padding">
+							<input type="text" placeholder="unitofmeasure" class="input-width text-style details-box" required>
+						</div>
+						<div class="input-padding">
+							<input type="text" placeholder="weight" class="input-width text-style details-box" required>
+						</div>
+						<div class="input-padding">
+							<input type="text" placeholder="drawing" class="input-width text-style details-box" required>
+						</div>
+					</div>
+					<div class="div-details left-padding">
+						<input type="button" class="button" value="PRINT LABEL">
+					</div>	
+        </div>
+        <div class="col-sm-6 image-block details-div">
+					<img id="image-div">
+        </div>
+        <div class="col-sm-2">        	
+        </div>        
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock content %}
+    
+

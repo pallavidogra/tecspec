@@ -1,0 +1,88 @@
+.page-grid{
+  display: grid;
+  grid-template-columns: 15% auto;
+  height: auto;
+  min-height: 800px;  
+}
+
+body{
+  overflow: hidden;
+}
+.navbar{
+  border: 2px solid rgb(240 175 96 / 1);
+  float: left;
+  margin-left: 10px;  
+  display: block;
+}
+a{
+  font-size: 24px;
+  color: red; 
+}
+.logo-width{
+  width: 18%;
+}
+a:hover, a:focus {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+.scan-code{
+  width: 85%;
+}
+.input-padding{
+  padding: 5px;
+}
+.input-width{
+  width: 280px;
+}
+.text-style{
+  border: 2px solid red; 
+}
+::placeholder {
+  color: red;
+}
+.bottom-padding{
+  padding-bottom: 3%;
+}
+.image-block{
+  height: auto; 
+  border: 2px solid red;
+}
+.button {
+  color: red;
+  border: 2px solid red;
+  padding: 15px 32px;
+  width: 85%; 
+  background-color: white;
+}
+input:focus{
+  border: 2px solid red;
+  outline: none;
+}
+.details-div{
+  display: none;
+}
+.div-details{
+  display: none;
+}
+.left-padding{
+  padding-left: 5px;
+}
+.ui-widget{
+  font-size: 1.5em;
+}
+.ui-widget-content{
+  color: red;
+  line-height: 50px;
+}
+.image-position{
+  float: right;
+}
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus {
+  color: red;
+}
+#image-div{
+  max-width:60% !important;  
+}
